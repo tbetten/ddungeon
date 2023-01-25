@@ -33,7 +33,7 @@ constexpr int wand_backfire_prob{ 40 };
 constexpr double wand_backfire_penalty{ 0.5 };
 constexpr int treasure_prob{ 40 };
 constexpr int tremor_prob{ 1 };
-constexpr int room_per_level{ 4 };
+constexpr int room_per_level{ 16 };
 constexpr int passages_per_room{ 4 };
 
 enum class Feature : uint8_t { Monster = 1, Demon = 1 << 1, Gas = 1 << 2, Dropoff = 1 << 3, Slide = 1 << 4, Treasure = 1 << 5 };
